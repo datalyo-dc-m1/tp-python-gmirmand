@@ -26,3 +26,14 @@ for i in range(1, valeur+1, 2):  # pour i allant de 0 à 20 par pas de 2
     somme += i
 
 print(f"somme des n premiers nombre = {somme}")
+
+
+"""
+ex4
+"""
+print("========= ex4 ==========")
+if 1 < valeur < 100:
+    print(f"{valeur} doit être compris entre 1 et 100")
+else:
+    for i in range(1, valeur+1):
+        print(f"--> i vaut : {i}")
