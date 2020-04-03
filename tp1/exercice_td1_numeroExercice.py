@@ -1,3 +1,6 @@
+"""
+ex1
+"""
 carre = 0
 
 valeur = int(input("saisir un entier: "))
