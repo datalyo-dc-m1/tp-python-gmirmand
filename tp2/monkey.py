@@ -1,9 +1,10 @@
 class Monkey:
-    def __init__(self, name, banana):
+    def __init__(self, name):
         self.name = name
-        self.banana = banana
-    def eat(self):
-        print(self.name, 'a mangé une banane', self.banana.color)
+
+    def eat(self, banana):
+        print(self.name, 'a mangé une banane', banana.color)
+
 
 class Banana:
     def __init__(self, color):
@@ -12,8 +13,8 @@ class Banana:
 
 banana_green = Banana('verte')
 banana_yellow = Banana('jaune')
-pierre = Monkey("Pierre", banana_green)
-bob = Monkey("bob", banana_yellow)
+pierre = Monkey("Pierre")
+bob = Monkey("bob")
 
-pierre.eat()
-bob.eat()
+pierre.eat(banana_green)
+bob.eat(banana_yellow)
