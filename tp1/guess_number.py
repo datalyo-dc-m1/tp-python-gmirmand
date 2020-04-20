@@ -11,7 +11,7 @@ while won == False:
         user_propal = int(input('Saisir un nombre entre 0 et 10 : '))
 
     if user_propal != number_to_guess:
-        print('Eh non !')
+        print('Eh non ! Ce n\'est pas', user_propal)
         user_propal = -1
     else:
         won = True
