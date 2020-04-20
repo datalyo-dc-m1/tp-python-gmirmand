@@ -21,8 +21,12 @@ median = sorted(grades)[int(nbEleve/2)]
 print('La médiane est', median)
 
 nbOK = 0
+nbRattrapage = 0
 for note in grades:
     if note >= 10:
         nbOK += 1
+    elif note >= 8:
+        nbRattrapage += 1
 
 print('Il y a ', nbOK, 'élèves qui ont validé leur matière')
+print('Il y a ', nbRattrapage, 'élèves qui sont en rattrapage')
