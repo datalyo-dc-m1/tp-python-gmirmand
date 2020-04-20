@@ -15,6 +15,8 @@ class PalindromeTest(unittest.TestCase):
 
     def test_word(self):
         self.assertEqual(True, is_palindrome("kayak"))
+        self.assertEqual(False, is_palindrome("toto"))
 
-    def test_word2(self):
-        self.assertEqual(True, is_palindrome("toto"))
+# Ex test qui ne fonctionne pas
+#    def test_word2(self):
+#        self.assertEqual(True, is_palindrome("toto"))
