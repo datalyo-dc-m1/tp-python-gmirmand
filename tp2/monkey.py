@@ -5,10 +5,10 @@ class Monkey:
     def eat(self, banana):
         print(self.name, 'a mangé une banane', banana.color)
 
-    def sendnude(self, monkey):
+    def sendNude(self, monkey):
         print(self.name, ' et ', monkey.name, 'ont copulé')
-        robert = Monkey('Robert')
-        return robert
+        child = Monkey('Robert')
+        return child
 
 
 class Banana:
@@ -24,7 +24,7 @@ marie = Monkey("bob")
 pierre.eat(banana_yellow)
 marie.eat(banana_green)
 
-robert = pierre.sendnude(marie)
+robert = pierre.sendNude(marie)
 
 robert.eat(banana_green)
 
