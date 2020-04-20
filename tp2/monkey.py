@@ -16,5 +16,5 @@ banana_yellow = Banana('jaune')
 pierre = Monkey("Pierre")
 bob = Monkey("bob")
 
-pierre.eat(banana_green)
-bob.eat(banana_yellow)
+pierre.eat(banana_yellow)
+bob.eat(banana_green)
